@@ -1,0 +1,13 @@
+
+<div class="img-fluid">
+    <img src="https://p7.hiclipart.com/preview/359/953/274/accounting-finance-service-bank-insurance-bank.jpg" width="100%" height="300px">
+</div>
+<div class="custom-file-upload">
+    <!--<label for="file">File: </label>--> 
+    
+    <h1>Account Statement File Upload</h1>
+    <input class="form-control" type="file" id="file" name="myfiles[]" multiple (change)="onFileSelected($event)"/>
+    <button type="button" class="btn btn-dark" (click)="onUpload()">Upload</button>
+    <h2 *ngIf="message" class="result">{{message.message}}</h2>
+    <button type="button" class="btn btn-warning" *ngIf="message" (click)="analysis('analysis')">Move To Visualisation</button>
+</div>

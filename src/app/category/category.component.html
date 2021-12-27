@@ -1,0 +1,30 @@
+<div id="msg">
+
+    
+    
+    
+    <button  class="btn btn-dark"  (click)="loadDataamount()">
+    Expenditures 
+        </button>
+
+    <button  class="btn btn-primary"(click)="loadDebitsamount()">
+        Debits
+     </button>
+        <button  class= "btn btn-warning"(click)="loadcreditDataamount()">
+             Credit
+            </button>
+        <button  class="btn btn-danger" (click)="loadbalanceamount()">
+                 Balance Analysis
+             </button>
+    
+    
+   
+    </div>
+    <hr>
+    
+    <div id="container">
+    <img src="imgLoad" alt="" [lazyLoad]="image$ | async">
+    </div>
+    
+    
+        

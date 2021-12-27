@@ -1,0 +1,26 @@
+
+img{
+    margin-top: 20000px;
+   
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    
+}
+#container{
+    display: flex;
+    background-color: honeydew;
+}
+#msg{
+   
+    display: flex;
+    margin-top: 80px;
+    margin-left: 2px;
+    padding-right: 10px;
+
+    
+}
+button{
+    margin-right: 200px;
+    margin-left: 100px;
+}

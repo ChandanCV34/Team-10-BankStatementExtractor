@@ -1,0 +1,27 @@
+
+<div id="msg">
+
+<button class=" btn btn-warning" (click)="loadData()">
+Bar Graph
+</button>
+
+
+
+
+<button class=" btn btn-info" (click)="loadScatter()">
+    Scatter graph
+</button>
+
+<button  class=" btn btn-danger"(click)="category('category')">
+    View By Category
+</button>
+</div>
+<hr>
+
+<div id="container">
+<img src="imgLoad" alt="" [lazyLoad]="image$ | async">
+</div>
+
+
+    
+   
